@@ -11,6 +11,11 @@ function getFullURL(value){
     return fullURL
 }
 
+function errorHandler(err){
+    console.log(err)
+    alert("Something went wrong! Please try again after sometime.")
+}
+
 function clickHandler(){
     //input
     var inputValue = inputTextarea.value 
@@ -22,6 +27,7 @@ function clickHandler(){
         //output
         leetCode.innerText = json.contents.translated
     })
+    .catch(error => errorHandler(error))
 }
 
 btnHack.addEventListener("click", clickHandler)
