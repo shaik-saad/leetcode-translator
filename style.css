@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primarycolor: #20C20E;
+    --secondary-color: #100c08;
+}
 body{
     font-family: 'Anonymous Pro', monospace;
+    margin: 0rem;
+    background-color: var(--secondary-color);
+    color: white;
 }
+
+/* navbar */
+nav{
+    background-color: var(--primarycolor);
+    text-align: center;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+nav img{
+    height: 50px;
+}
+
+#header-brand{
+    display: inline;
+    font-size: 4rem;
+    padding-left: 0.5rem ;
+    color: var(--secondary-color);
+}
+
+
