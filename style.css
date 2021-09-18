@@ -66,4 +66,33 @@ main p{
     color: var(--secondary-color);
 }
 
+/* footer */
+footer{
+    background-color: var(--primarycolor);
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1.6rem 0rem;
+}
+
+footer p{
+    display: inline;
+}
+
+.social-media-links{
+    display: inline;
+    list-style: none;
+    padding-left: 0rem;
+}
+
+.list-item{
+    display: inline;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    padding: 0 0.5rem;
+}
 
