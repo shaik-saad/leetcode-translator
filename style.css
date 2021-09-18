@@ -34,4 +34,36 @@ nav img{
     color: var(--secondary-color);
 }
 
+/* main section */
+main{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+main p{
+    text-align: left;
+}
+
+#input-text{
+    width: 100%;
+    min-height: 15vh;
+}
+
+#btn-hack{
+    background-color: var(--primarycolor);
+    border: none;
+    font-size: larger;
+    padding: 1rem 3rem;
+    margin-top: 2rem; 
+}
+
+#leet-output{
+    width: 100%;
+    min-height: 15vh;
+    background-color: white;
+    color: var(--secondary-color);
+}
+
 
